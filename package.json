@@ -1,0 +1,14 @@
+{
+	"name": "stanford-robotics-website",
+	"version": "0.0.1",
+	"description": "Website for the Stanford Robotics Club.",
+	"main": "web.js",
+
+	"dependencies": {
+       	   "express": "3.3.7",
+	}, 
+	"engines": {
+	   "node": "0.10.12",
+	   "npm": "1.2.30"
+	}
+}
