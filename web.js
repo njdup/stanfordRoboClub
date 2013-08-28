@@ -9,6 +9,7 @@ var content = fs.readFileSync(filename);
 var converted = content.toString();
 
 app.use(express.static(__dirname));
+app.use(express.static(__dirname + "/bootstrap/js"));
 
 app.get('/', function(request, response){
        	response.send(converted);
