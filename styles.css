@@ -170,6 +170,7 @@ time{
 	float: left;
 	width: 45%;
 	padding-left: 5%;
+	margin-bottom: 80px;
 }
 
 
@@ -178,6 +179,28 @@ time{
 .content-right .events{
 	color: #800000;
 	border-bottom: 3px solid black;
+}
+
+.events-listing{
+	list-style: none;
+	margin-left: 0;
+}
+
+.eventtime{
+	margin-top: 20px;
+}
+
+.event-heading{
+	color: #8C1515;
+	margin-bottom: 0;
+	margin-top: 0px;
+}
+
+.event-separator{
+	border-top: 1px solid #565347;
+	opacity: 0.7;
+	width: 80%;
+	margin-left: 10%;
 }
 	
 
