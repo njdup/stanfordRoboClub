@@ -40,7 +40,7 @@
     /* Carousel base class */
     .carousel {
       margin: 0;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
       width: 100%;
       max-height: 420px;
 /*      background-color: #800000; */
@@ -115,5 +115,69 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	margin-right: auto;
 	width: 960px;
 	height: 360px;
+	border: 2px solid white;
+	border-radius: 20px;
     }
+
+/* Main Page Content Styling */
+
+#content-container{
+	margin-bottom: 360px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content-left{
+	float: left;
+	width: 50%;
+}
+
+.content-left .blog{
+	color: #800000;
+	border-bottom: 3px solid black;
+}
+
+/* Blog styling */ 
+
+.blog-listing{
+	margin: 25px 0px;
+}
+
+.blog-listing li{
+	list-style: none;
+	font-size: 20px;
+}
+
+.blog-listing a{
+	text-decoration: none;
+	color: #8C1515;
+}
+
+.blog-listing a:hover{
+	background-color: #ffffcc;
+}
+
+time{
+	display: block;
+	color: #8a887d;
+	font-size: 16px;
+}
+
+/* Right content wrapper */
+
+.content-right{
+	float: left;
+	width: 45%;
+	padding-left: 5%;
+}
+
+
+/* Events Section */
+
+.content-right .events{
+	color: #800000;
+	border-bottom: 3px solid black;
+}
+	
 
