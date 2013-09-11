@@ -4,16 +4,30 @@
     <meta charset="utf-8">
     <title>About Us</title>
     <meta name="author" content="Nicholas Dupoux">
-    
+
     <!-- Styles -->
     <link href="../bootstrap.css" rel="stylesheet">
     <link href="../styles.css" rel="stylesheet">
 
+    <!-- JavaScript -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript" src="/jquery.cycle.all.js"></script>
+    <script>
+      $(document).ready(function() {
+           $('#slideshow').cycle({
+           fx: 'fade',
+           pager: '#smallnav',
+           pause: 1,
+           speed: 1800,
+           timeout: 3500
+           });
+      });
+    </script>
   </head>
 
   <body>
 
-    <!-- Navbar --> 
+    <!-- Navbar -->
     <div class="navbar-wrapper" >
       <div class="container">
         <div class="navbar navbar-inverse">
@@ -32,6 +46,13 @@
       </div>
     </div>
 
+    <div id="slideshow">
+      <img src="/images/BNWgroup.jpg" class="bgM">
+      <img src="/images/group.jpg" class="bgM">
+      <img src="/images/robots.jpg" class="bgM">
+      <img src="/images/drone.jpg" class="bgM">
+    </div>
   </body>
 
 </html>
+
