@@ -263,10 +263,26 @@ img.bgM {
 
 /* Footer */
 
+footer{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .footer-divide{
 	display: block;
 	clear: both;
 	width: 90%;
 	margin-left: 5%;
+	border-top: 1px solid #800000;
 }
 
+.pull-right{
+	display: inline;
+	margin-right: 10%;
+	font-size: 12px;
+}
+
+.footer-text{
+	display: inline;
+	font-size: 12px;
+}
