@@ -22,7 +22,22 @@ app.get('/aboutus', function(request, response){
 	response.send(aboutUsConverted);
     });
 
+
+var membershipContent =fs.readFileSync("membership.html");
+var memberConverted = membershipContent.toString();
+
+app.get('/membership', function(request, response){
+        response.send(memberConverted);
+    });
+
 var port = process.env.PORT || 8080;
 app.listen(port, function(){
 	console.log("Listening on " + port);
     });
+
+
+
+
+
+
+
