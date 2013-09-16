@@ -345,25 +345,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 
 .banner-caption{
 	position: static;
-	max-width: 550px;
 	padding: 0 20px;
 	margin-top: 200px;
-	background-color: black;
-	opacity: 0.7;
+	background-color:rgba(0,0,0,0.7);
 	right: 0;
 	bottom: 0;
 	left: 0;	
-	text-align: center;
-
 	margin-left: 25%;
 	margin-right: 25%;
+	text-align: center;
 }
 
 .banner-caption h1{
-	margin: 0;
 	line-height: 1.25;
 	color: #fff;
 	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+
 }
 
 .banner-caption .lead{
@@ -381,13 +378,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	text-align: center;
 }
 
+.aboutUs-header h1{
+	color: #800000;
+}
+
 .aboutUs-header .top-divide{
 	display: block;
 	border-top: 1px solid #800000;
 }
 
 .section-divide{
-	margin: 50px;
+	margin: 30px;
 	border-top: 1px solid #800000;
 }
 
@@ -412,7 +413,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	float: left;
 }
 
-.section-heading.right{
+.section-heading{
 	color: #800000;
 	text-align: center;
 	margin-top: 100px;
@@ -425,5 +426,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	float: right;
 }
 
-.section-heading{
-}
+
