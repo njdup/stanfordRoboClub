@@ -354,6 +354,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	margin-left: 25%;
 	margin-right: 25%;
 	text-align: center;
+
+	border: 0px solid black;
+	border-radius: 20px;
 }
 
 .banner-caption h1{
@@ -426,4 +429,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	float: right;
 }
 
+.banner.sponsors{
+	margin-top: 75px;
+	text-align: center;
+}
 
+.banner-inner.sponsors{
+	border: none;
+}
+
+.banner-inner.sponsors h1{
+	color: white;
+}
