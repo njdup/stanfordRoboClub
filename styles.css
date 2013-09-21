@@ -441,3 +441,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	color: white;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+.sponsors-list{
+	list-style: none;
+}
+
+.sponsors-list li img{
+	 border: 10px solid white;
+	 border-radius: 10px;
+}
