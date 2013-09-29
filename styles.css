@@ -431,10 +431,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 .banner.sponsors{
 	margin-top: 75px;
 	text-align: center;
+	height: 500px;
 }
 
 .banner-inner.sponsors{
 	border: none;
+	height: 460px;
 }
 
 .banner-inner.sponsors h1{
@@ -444,6 +446,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 
 .sponsors-list{
 	list-style: none;
+}
+
+.sponsors-list li{
+	display: inline;
 }
 
 .sponsors-list li img{
