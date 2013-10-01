@@ -455,4 +455,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 .sponsors-list li img{
 	 border: 10px solid white;
 	 border-radius: 10px;
+	 margin: 20px;
+}
+
+.long{
+	width: 240px;
+	height: 60px;
+}
+
+.short{
+	width: 145px;
+	height: 64px;
 }
