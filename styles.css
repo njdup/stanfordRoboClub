@@ -303,7 +303,8 @@ footer{
        position: relative;
 
         background: rgb(109,0,25); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(109,0,25,1) 1%, rgba(143,2,34,1) 15%, rgba(169,3,41,1) 26%, rgba(169,3,41,1) 73%, rgba(143,2,34,1) 90%, rgba(109,0,25,1) 100%); /* FF3.6+ */
+background: -moz-linear-gradient(top,  rgba(109,0,25,1) 1%, rgba(143,2,34,1) 15%, rgba(169,3,41,1) 26%, rgba(169,3,41,1) 73%, rgba(143,2,34,1) 90%, rgba(109,0,25,1) 100%); /* FF3
+.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(109,0,25,1)), color-stop(15%,rgba(143,2,34,1)), color-stop(26%,rgba(169,3,41,1)), color-stop(73%,rgba(169,3,41,1)), color-stop(90%,rgba(143,2,34,1)), color-stop(100%,rgba(109,0,25,1))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(109,0,25,1) 1%,rgba(143,2,34,1) 15%,rgba(169,3,41,1) 26%,rgba(169,3,41,1) 73%,rgba(143,2,34,1) 90%,rgba(109,0,25,1) 100%); /* Chrome10+,Safari5.1+ */
 background: -o-linear-gradient(top,  rgba(109,0,25,1) 1%,rgba(143,2,34,1) 15%,rgba(169,3,41,1) 26%,rgba(169,3,41,1) 73%,rgba(143,2,34,1) 90%,rgba(109,0,25,1) 100%); /* Opera 11.10+ */
@@ -374,18 +375,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 	font-size: 16px;
 }
 
-.aboutUs-header{
+.top-header{
 	margin-left: 25%;
 	margin-right: 25%;
 	text-align: center;
 }
 
-.aboutUs-header h1{
+.top-header h1{
 	color: #800000;
+	margin: 0;
 }
 
-.aboutUs-header .top-divide{
-	display: block;
+.top-header.top-divide{
+	display: block;	
 	border-top: 1px solid #800000;
 }
 
@@ -469,11 +471,58 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 }
 
 .member-content{
-	margin: 30px 15%;
-	min-width: 680px;
-	height: 480px;
-	border: 2px solid rgba(255,255,255,0.9);
-	border-radius: 5px;
-	overflow: scroll;
-	background-color: rgba( 255, 255, 255, 0.9);
+	margin-left: 120px;
+	margin-right: 120px;
+	background-color: white;
+	padding-top: 40px;
+	
+}
+
+
+/* Styles for smaller, imageless banner */
+
+#smallbanner{
+background: -moz-linear-gradient(top,  rgba(109,0,25,0.82) 1%, rgba(131,1,31,0.82) 10%, rgba(143,2,34,0.84) 15%, rgba(169,3,41,0.89) 26%, rgba(169,3,41,1) 52%, rgba(169,3,41,0.9) 73%, rgba(143,2,34,0.82) 90%, rgba(133,1,31,0.81) 93%, rgba(109,0,25,0.81) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(109,0,25,0.82)), color-stop(10%,rgba(131,1,31,0.82)), color-stop(15%,rgba(143,2,34,0.84)), color-stop(26%,rgba(169,3,41,0.89)), color-stop(52%,rgba(169,3,41,1)), color-stop(73%,rgba(169,3,41,0.9)), color-stop(90%,rgba(143,2,34,0.82)), color-stop(93%,rgba(133,1,31,0.81)), color-stop(100%,rgba(109,0,25,0.81))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(109,0,25,0.82) 1%,rgba(131,1,31,0.82) 10%,rgba(143,2,34,0.84) 15%,rgba(169,3,41,0.89) 26%,rgba(169,3,41,1) 52%,rgba(169,3,41,0.9) 73%,rgba(143,2,34,0.82) 90%,rgba(133,1,31,0.81) 93%,rgba(109,0,25,0.81) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(109,0,25,0.82) 1%,rgba(131,1,31,0.82) 10%,rgba(143,2,34,0.84) 15%,rgba(169,3,41,0.89) 26%,rgba(169,3,41,1) 52%,rgba(169,3,41,0.9) 73%,rgba(143,2,34,0.82) 90%,rgba(133,1,31,0.81) 93%,rgba(109,0,25,0.81) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(109,0,25,0.82) 1%,rgba(131,1,31,0.82) 10%,rgba(143,2,34,0.84) 15%,rgba(169,3,41,0.89) 26%,rgba(169,3,41,1) 52%,rgba(169,3,41,0.9) 73%,rgba(143,2,34,0.82) 90%,rgba(133,1,31,0.81) 93%,rgba(109,0,25,0.81) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(109,0,25,0.82) 1%,rgba(131,1,31,0.82) 10%,rgba(143,2,34,0.84) 15%,rgba(169,3,41,0.89) 26%,rgba(169,3,41,1) 52%,rgba(169,3,41,0.9) 73%,rgba(143,2,34,0.82) 90%,rgba(133,1,31,0.81) 93%,rgba(109,0,25,0.81) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d16d0019', endColorstr='#cf6d0019',GradientType=0 ); /* IE6-9 */
+	margin-bottom: 0;
+}
+
+#smallbanner-inner{
+	height: 50px;
+	border: none;
+	width: auto;
+}
+
+#smallbanner-item{
+	margin-top: 10px;
+	height: auto;
+	text-align: center;
+}
+
+#smallbanner{
+	margin-left: 120px;
+	margin-right: 120px;
+	width: auto;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.banner-text{
+	color: white;
+	font: 22px bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	vertical-align: baseline;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.section-heading.shorter{
+	margin-top: 0;
+}
+
+.section-content.squeeze{
+	margin: 10px 25px;
 }
