@@ -471,8 +471,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', end
 }
 
 .member-content{
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 160px;
+	margin-right: 160px;
 	background-color: white;
 	padding-top: 40px;
 	
@@ -505,8 +505,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d16d0019', e
 }
 
 #smallbanner{
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 160px;
+	margin-right: 160px;
 	width: auto;
 	border-radius: 15px 15px 0px 0px;
 }
@@ -525,4 +525,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d16d0019', e
 
 .section-content.squeeze{
 	margin: 10px 25px;
+}
+
+.member-content .section{
+	text-align: center;
+}
+
+.membership-list{
+	list-style: none;
+	margin-left: 0;
+}
+
+.membership-footer{
+	padding-bottom: 20px;
 }
