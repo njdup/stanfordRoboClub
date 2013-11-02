@@ -30,6 +30,13 @@ app.get('/membership', function(request, response){
         response.send(memberConverted);
     });
 
+var outreachContent = fs.readFileSync("Outreach.html");
+var outreachConverted = outreachContent.toString();
+
+app.get('/outreach', function(request, response){
+	response.send(outreachConverted);
+    });
+
 var port = process.env.PORT || 8080;
 app.listen(port, function(){
 	console.log("Listening on " + port);
