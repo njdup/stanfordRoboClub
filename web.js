@@ -37,6 +37,13 @@ app.get('/outreach', function(request, response){
 	response.send(outreachConverted);
     });
 
+var projectsContent = fs.readFileSync("projects.html");
+var projectsConverted = projectsContent.toString();
+
+app.get('/projects', function(request, response){
+	response.send(projectsConverted);
+    });
+
 var port = process.env.PORT || 8080;
 app.listen(port, function(){
 	console.log("Listening on " + port);
