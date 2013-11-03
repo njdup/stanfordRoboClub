@@ -44,6 +44,11 @@ app.get('/projects', function(request, response){
 	response.send(projectsConverted);
     });
 
+var sponsorContent = fs.readFileSync("sponsorus.html").toString();
+app.get('/sponsorus', function(request, response){
+	response.send(sponsorContent);
+    });
+
 var port = process.env.PORT || 8080;
 app.listen(port, function(){
 	console.log("Listening on " + port);
