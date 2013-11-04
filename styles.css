@@ -202,6 +202,15 @@ time{
 	margin-left: 10%;
 }
 
+.events-listing a{
+        text-decoration: none;
+        color: #8C1515;
+}
+
+.events-listing a:hover{
+	      background-color: #ffffcc;
+}
+
 /*Social Media Section */
 
 .socialmedia-section{
@@ -591,3 +600,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d16d0019', e
 .sponsorus-content.section{
 	text-align: center;
 }
+
