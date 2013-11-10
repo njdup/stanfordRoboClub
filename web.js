@@ -2,7 +2,7 @@ var express = require('express');
 var fs = require('fs');
 
 var app = express();
-var filename = "index.html";
+var filename = "home.html";
 var content = fs.readFileSync(filename);
 var converted = content.toString();
 
