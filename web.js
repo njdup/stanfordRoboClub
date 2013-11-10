@@ -4,7 +4,7 @@ var fs = require('fs');
 
 
 var app = express();
-var filename = "home.html";
+var filename = "index.html";
 var content = fs.readFileSync(filename);
 var converted = content.toString();
 
