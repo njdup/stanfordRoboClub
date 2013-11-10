@@ -1,8 +1,6 @@
 var express = require('express');
 var fs = require('fs');
 
-
-
 var app = express();
 var filename = "index.html";
 var content = fs.readFileSync(filename);
